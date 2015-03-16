@@ -3,7 +3,7 @@
 # Usage: must be executed in the directory where the files are held in UNIX/Linux
 # This version includes handling files with spaces in them.
 
-my $extension = ".shp";
+my $extension = ".shp"; #change to whatever extension your files are using
 
 use strict;
 open(list_of_files, "dir *$extension /b |");
